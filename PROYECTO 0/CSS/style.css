@@ -1,0 +1,142 @@
+
+:root{
+    --Rosita: #F76666;
+    --AzulTCD: #02052F;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    fornt font-weight: 400;
+}
+
+.contenedor {
+    width: 90%; /* DEFINIMOS EL ANCHO DEL CONTENEDOR */
+    margin-top: 0%;
+    margin-right: auto; /* CON MARGIN RIGHT Y LEFT EN */
+    margin-bottom: 0%;
+    margin-left: auto;
+    }
+.banner{
+        width: 100%;
+        background-image: url(../IMG/11641893944_banner_zona_centro.png);
+    }
+    
+ .Localizaciones{
+        background-color:black;
+        color: white;
+    }
+    
+a {
+        text-decoration: none;
+    }
+    
+.navPrincipal {
+    
+    padding: 15px 0px 10px 0px;
+    }
+    
+.DisplayFlex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        
+    .Subrayado a:hover {
+        text-decoration: underline;
+    }
+    
+.Login a {
+        color: var(--Rosita)
+    }
+    
+.Raya{
+        color: var(--Rosita);
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+.ImagenLogo{
+        padding: 17px 0px 0px 0px;
+    }
+    
+.NavCursos{
+        padding: 0px 0px 0px 0px;
+        margin-top: 2.4rem;
+        align-items: center;
+    }
+    
+.NavCursos a{
+        font-size: 1.5rem;
+    }
+    
+.MargenD25{
+        margin-right: 25px;
+        font-weight: 700;
+        color: var(--AzulTCD);
+    }
+    
+.Informate{
+        background-color: var(--Rosita);
+        font-weight: 700;
+        color: white;
+        border-radius: 20px;
+        padding: 8px 12px
+    }
+    
+.Informate:hover {
+        background-color: #117a8b;
+        text-decoration: none !important;
+    }
+@media(min-width:768px) 
+/* PARA TABLET,PC O MAS */
+    {
+        
+    .colxl-12 {
+            flex:100%;
+            max-width: 100%;
+            display: flex;
+            justify-content: end;
+        }
+        
+    .colxl-4 {
+            flex:33.33%;
+            max-width: 33.33%;
+        }
+        
+    .colxl-8 {
+            flex:66.66%;
+            max-width: 66.66%;
+            display: flex;
+            justify-content: end;
+        }
+}
+
+@media(max-width:768px)
+/* PARA MOVILES */
+        {
+
+    .colsm-12 {
+            flex:100%;
+            max-width: 100%;
+            display: flex;
+            justify-content: end;
+        }
+}
+
+@media(max-width:480px)
+{
+    body{
+        background-color: red;
+    }
+}
+
+
+@media(min-width:1140px)
+{
+    body{
+        background-color:blue
+    }
+}
