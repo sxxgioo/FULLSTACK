@@ -1,4 +1,4 @@
-
+gi
 :root{
     --Rosita: #F76666;
     --AzulTCD: #02052F;
@@ -11,7 +11,7 @@ html{
 body{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    fornt font-weight: 400;
+    font-weight: 400;
 }
 
 .contenedor {
@@ -21,10 +21,7 @@ body{
     margin-bottom: 0%;
     margin-left: auto;
     }
-.banner{
-        width: 100%;
-        background-image: url(../IMG/11641893944_banner_zona_centro.png);
-    }
+
     
  .Localizaciones{
         background-color:black;
@@ -126,17 +123,8 @@ a {
         }
 }
 
-@media(max-width:480px)
-{
-    body{
-        background-color: red;
-    }
-}
-
-
-@media(min-width:1140px)
-{
-    body{
-        background-color:blue
-    }
+.ImagenBanner{
+    background-image: url(../IMG/11641893944_banner_zona_centro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
