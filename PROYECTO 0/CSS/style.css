@@ -11,10 +11,12 @@ body{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    margin: 0px;
+    /*background-image: linear-gradient(to top,red 20%,yellow 100%);*/
 }
 
 .contenedor {
-    width: 90%; /* DEFINIMOS EL ANCHO DEL CONTENEDOR */
+    width: 70%; /* DEFINIMOS EL ANCHO DEL CONTENEDOR */
     margin-top: 0%;
     margin-right: auto; /* CON MARGIN RIGHT Y LEFT EN */
     margin-bottom: 0%;
@@ -41,7 +43,7 @@ a {
         flex-wrap: wrap;
     }
         
-    .Subrayado a:hover {
+.Subrayado a:hover {
         text-decoration: underline;
     }
     
@@ -124,6 +126,132 @@ a {
 
 .ImagenBanner{
     background-image: url(../IMG/11641893944_banner_zona_centro.png);
-    background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 180px;
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.Logos{
+    width: 90px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logos img {
+    padding: 30px;
+}
+
+.h1{
+    line-height: 1.2;
+}
+
+
+.TextosZonaCentro h1 {
+    background-color: rgba(248, 102, 102, 0.65);
+    margin-bottom: 10px;
+    font-weight: 800;
+    padding: 35px;
+    color: #fff;
+    font-size: 4.5rem;
+    /*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+
+}
+
+.TextosZonaCentro {
+    width: 65%;
+}
+
+.EjPadre {
+    background-color: red;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+.EjHijo {
+    background-color: yellow;
+    width: 50px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.TextosZonaCentro .precta {
+    display: block;
+    float: left;
+}
+
+.TextosZonaCentro .cta {
+    color: #fff;
+    border: 2px solid #000;
+    background: #000 url(../IMG/ico-flecha-derecha-white.png) no-repeat right 20px center;
+    border-radius: 0%;
+    float: right;
+    font-family: "DinBold" , sans-serif;
+    min-height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 24px 94px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.TextosZonaCentro .cta:hover {
+    color:var(--Rosita);
+    background: white url(../IMG/ico-flecha-derecha-red.png) no-repeat right 20px center;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.CursosMarketing{
+    background-image: url(../IMG/Curso-marketing-digital-centro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CursosVideojuegos{
+    background-image: url(../IMG/Curso-programacion-videojuegos-centro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CursosFullstack{
+    background-image: url(../IMG/Curso-programacion-web-full-stack-centro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ImagenesCursos {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 30px 30px;
+}
+
+.ImagenesCursos div{
+    padding: 30px 50px;
+    position: relative;
+}
+
+.ImagenesCursos div a {
+    position: absolute;
+    bottom: 50px;
 }

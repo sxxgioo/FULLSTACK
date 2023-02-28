@@ -1,0 +1,102 @@
+:root{
+    --Turquesa: #009383;
+    --Amarillo: #ffc658;
+    --Negro:#000;
+    --Naranja:#ea554e;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.contenedor {
+    width: 90%; /* DEFINIMOS EL ANCHO DEL CONTENEDOR */
+    margin-top: 0%;
+    margin-right: auto; /* CON MARGIN RIGHT Y LEFT EN */
+    margin-bottom: 0%;
+    margin-left: auto;
+    }
+
+a {
+    text-decoration: none
+    }
+    
+.navPrincipal {
+padding: 15px 0px 10px 0px;
+}
+    
+.DisplayFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+        
+.Subrayado a:hover {
+    text-decoration: underline;
+}
+    
+.Login a{
+    color: var(--Amarillo)
+}
+    
+.Raya{
+    color: var(--Amarillo);
+    padding-left: 0.8rem;
+     padding-right: 0.8rem;
+}
+.ImagenLogo {
+     padding: 17px 0px 0px 0px;
+}
+
+.ImagenLogo img {
+     width: 99px
+}
+
+.MargenD25{
+        margin-right: 25px;
+        font-weight: 700;
+        color: var(--Negro);
+    }
+    
+.Donar{
+        background-color: var(--Turquesa);
+        font-weight: 700;
+        color: var(--Amarillo)
+        border-radius: 20px;
+        padding: 8px 12px
+    }
+
+    .Donar:hover {
+        background-color:var(--Turquesa)
+        text-decoration: none !important;
+    }
+
+.colxl-12{
+    flex:100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.colxl-4 {
+    flex:33.33%;
+    max-width: 33.33%;
+}
+        
+.colxl-8 {
+    flex:66.66%;
+    max-width: 66.66%;
+    display: flex;
+    justify-content: end;
+}
+
+.ImagenBanner {
+    background-image: url(../IMG/banner-emergencia-humanitaria.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
